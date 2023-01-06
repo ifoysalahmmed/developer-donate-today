@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    color: #fffbfb;
+    background-color: #ff5959;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+
+/* header section styles */
+.header {
+    background-image: url('../images/donation0.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 230px 250px 0 250px;
+}
+
+.header-title {
+    color: #fffbfb;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.header-description {
+    color: #bfb8b6;
+    font-size: 16px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* main section styles */
+
+/* donate today section */
+section {
+    margin-top: 150px;
+}
+
+.donate-today {
+    padding: 0 250px 0 250px;
+    text-align: center;
+}
+
+.section-title {
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    color: #bfb8b6;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 20px;
+}
+
+.donation-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.donation{
+    color: grey;
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding: 25px;
+}
+.donation-amount{
+    font-size: 25px;
+    font-weight: 700;
+}
+.select-donation{
+    color: #ff5959;
+    border: 2px solid #ff5959;
+}
+
+.other-amount{
+    color: grey;
+    margin-bottom: 5px;
+}
+hr{
+    margin-bottom: 20px;
+}
+/* donate plan section */
+.donate-plan{
+    padding: 0 230px 0 230px;
+}
+.donate-plan-container{
+    display: flex;
+    gap: 20px;
+}
+.donate-food{
+    background-color: #edf5f6;
+    border-radius: 5px;
+    padding: 25px;
+}
+.donate-shelter{
+    background-color: #ffeeee;
+    border-radius: 5px;
+    padding: 25px;
+}
+.donate-education{
+    background-color: #fff4d6;
+    border-radius: 5px;
+    padding: 25px;
+}
+.donate-plan-container img{
+    height: 30px;
+    width: 30px;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+
+}
+.donate-plan-container h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contribute-part-1{
+    display: flex;
+    gap: 20px;
+}
+.contribute-part-2{
+    display: flex;
+    gap: 20px;
+}
