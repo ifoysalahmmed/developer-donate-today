@@ -131,6 +131,14 @@ hr{
     font-weight: 600;
     margin-bottom: 10px;
 }
+.donate-plan-container p{
+    color: #bfb8b6;
+    font-size: 14px;
+}
+/* how to contribute section */
+.contribution{
+    padding: 0 230px 0 230px;
+}
 .contribute-part-1{
     display: flex;
     gap: 20px;
@@ -138,4 +146,9 @@ hr{
 .contribute-part-2{
     display: flex;
     gap: 20px;
+}
+.contribution img{
+    height: 400px;
+    width: 350px;
+    border-radius: 5px;
 }
